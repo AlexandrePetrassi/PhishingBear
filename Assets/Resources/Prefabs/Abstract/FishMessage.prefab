@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129668
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22402156}
+  - 222: {fileID: 22241052}
+  - 114: {fileID: 11470362}
+  - 114: {fileID: 11463892}
+  - 114: {fileID: 11425494}
+  m_Layer: 5
+  m_Name: FishMessage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &129776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22452150}
+  - 222: {fileID: 22292630}
+  - 114: {fileID: 11493552}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &11425494
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29deb1dddc141814d85f7d0be853b8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 2
+  urls:
+  - https://www.citibank.com.br
+  - https://www.itau.com.br
+  - http://www.bradesco.com.br/html/classic/index.shtm
+  - http://www3.caixa.gov.br/fies/asp/boleto/boletoonline2.asp
+  - https://www.acessocard.com.br/
+  - http://www.bradescofinanciamentos.com.br/html/financiamentos/index.shtm
+  - http://us.blizzard.com/pt-br/
+  - http://us.battle.net/pt/
+  - http://www.santander.com.br/
+  - http://www.hsbc.com.br/
+  - http://www.bb.com.br/portalbb/home29,116,116,1,1,1,1.bb
+  - http://66.160.154.156/catalog/paypal/
+  - http://12.34.56.78/firstgenericbank/account-update/
+  - http://www.msn-verify.com/
+  - http://45.79.150.211/rediron.php
+  - http://www.helpinformatica.net/default/secure/www.bradesco.com.br/identificacao.php
+  - http://hospitalwheel.com/pelt.php
+  - http://www.speedhobby-rg.de/k1.html
+  - http://namoroonline.110mb.com/novaa.php
+  - http://201.221.128.62:3000/Pagina/images/banners/rv/
+  - http://santander-mxl.zz.mu/
+  - http://paypal-securityteam.galerieartisoraka.com/secure-login/cmd
+  - http://www.ubabanking.com/
+  - http://www.profile.co.gp/facebook#sthash.B7SNvZVl.dpuf
+  - http://www.facebook.pcriot.com/login.php#sthash.B7SNvZVl.dpuf
+  tips:
+  - www.citibank.com.br pertence ao Banco citibank.
+  - www.itau.com.br pertence ao Banco Itau.
+  - www.bradesco.com.br pertence ao Banco Bradesco.
+  - "N\xE3o se engane por causa do ww3, este site pertence a CAIXA."
+  - "Este site \xE9 real, se estiver em d\xFAvida procure no Google."
+  - "N\xE3o deixe que uma longa URL te enganar, o que realmente importa e que este
+    site pertence ao Bradesco Financiamentos."
+  - "http://us.blizzard.com pertence \xE0 empresa Blizzard."
+  - http://us.battle.net pertence a Battle.net
+  - www.santander.com.br pertence ao Santander.
+  - www.hsbc.com.br/ pertence ao HSBC.
+  - www.bb.com.br  pertence ao Banco do Brasil
+  - "ALERTA DE FRAUDE! URLs com n\xFAmeros na frente geralmente s\xE3o fraudes."
+  - "ALERTA DE FRAUDE! URLs com n\xFAmeros na frente geralmente s\xE3o fraudes."
+  - "ALERTA DE FRAUDE! Palavras chave como verify, update no dom\xEDnio significam
+    que \xE9 uma fraude."
+  - "ALERTA DE FRAUDE! URLs com n\xFAmeros na frente geralmente s\xE3o fraudes."
+  - "Este site pertence ao helpinformatica.net, n\xE3o ao Bradesco.com.br."
+  - "Esta \xE9 dif\xEDcil, tente digitar no Google \u201Chospitalwheel\u201D"
+  - "Um nome de uma empresa seguido por um h\xEDfen geralmente \xE9 um site falso."
+  - "Este site pertence ao 110mb.com, n\xE3o ao namoroonline."
+  - "ALERTA DE FRAUDE! URLs com n\xFAmeros na frente geralmente s\xE3o fraudes."
+  - "Um nome de uma empresa seguido por um h\xEDfen geralmente \xE9 um site falso."
+  - "Um nome de uma empresa seguido por um h\xEDfen geralmente \xE9 um site falso."
+  - "Esta \xE9 dif\xEDcil, tente digitar no Google \u201Cubabanking\u201D"
+  - "Este site pertence ao profile.co.gp, n\xE3o ao Facebook.com."
+  - "Este site pertence ao pcriot.com, n\xE3o ao Facebook.com."
+  fake: 00000000000000000000000101010101010101010101010101
+  trap: {fileID: 131536, guid: 25fd53f59816a414bbdd081a29b26cf5, type: 2}
+  points: 10
+  badThrowMessage: {fileID: 150146, guid: 69de8ae63c8e18f41b3c01566fbdf639, type: 2}
+  goodEatMessage: {fileID: 136902, guid: 6db633a4a403a5c4d999f822cb796372, type: 2}
+  goodThrowMessage: {fileID: 132592, guid: ad16f1217a2441e4d82cbe7ffe37c0a5, type: 2}
+--- !u!114 &11463892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .870588243, g: .858823538, b: 1, a: .87843138}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 11470362}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &11470362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11493552
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1.20000005
+  m_Text: '
+
+
+    W(Jogar fora) E(Comer)'
+--- !u!222 &22241052
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129668}
+--- !u!222 &22292630
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129776}
+--- !u!224 &22402156
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22452150}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_AnchorMin: {x: .5, y: .5}
+  m_AnchorMax: {x: .5, y: .5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 550, y: 100}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22452150
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22402156}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 129668}
+  m_IsPrefabParent: 1
